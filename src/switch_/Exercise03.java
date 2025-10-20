@@ -41,7 +41,7 @@ public class Exercise03 {
 				+ "C. MULTIPLICAR LOS NUMEROS\n"
 				+ "D. DIVIDIR LOS NUMEROS\n"
 				+ "Select a option:");
-		option = sc.nextLine();
+		option = sc.nextLine().toUpperCase();
 		
 		
 		switch (option) {

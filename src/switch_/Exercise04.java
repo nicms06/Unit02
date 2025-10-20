@@ -27,55 +27,55 @@ public class Exercise04 {
 		
 		//Ask the user for roll 1 
 		System.out.print("Please input the number of the first roll: ");
-		roll1 = sc.nextLine();
+		roll1 = sc.nextLine().toUpperCase();
 		
 		//Transform the roll1 to numbers
 		switch (roll1) {
-			case "UNO":
+			case "ONE":
 				num1 = 1;
 				break;
-			case "DOS":
+			case "TWO":
 				num1 = 2;
 				break;
-			case "TRES":
+			case "THREE":
 				num1 = 3;
 				break;
-			case "CUATRO":
+			case "FOUR":
 				num1 = 4;
 				break;
-			case "CINCO":
+			case "FIVE":
 				num1 = 5;
 				break;
-			case "SEIS":
+			case "SIX":
 				num1 = 6;
 				break;
 			default:
 				System.out.println("Incorrect");
 				System.exit(0);
-				}
+		}
 				
 		//Ask the user for roll 2
 		System.out.println("Please input the number of the second roll: ");
-		roll2 = sc.nextLine();
+		roll2 = sc.nextLine().toUpperCase();
 		
 		//Transform the roll1 to numbers
 		switch (roll2) {
-		case "UNO":
+		case "ONE":
 			num2 = 1;
 			break;
-		case "DOS":
+		case "TWO":
 			num2 = 2;
 			break;
-		case "TRES":
+		case "THREE":
 			num2 = 3;
 			break;
-		case "CUATRO":
+		case "FOUR":
 			num2 = 4;
 			break;
-		case "CINCO":
+		case "FIVE":
 			num2 = 5;
 			break;
-		case "SEIS":
+		case "SIX":
 			num2 = 6;
 			break;
 		default:
