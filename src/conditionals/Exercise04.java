@@ -17,6 +17,7 @@
 package conditionals;
 
 import java.util.Scanner;
+import java.util.Random;
 
 public class Exercise04 {
 
@@ -25,6 +26,8 @@ public class Exercise04 {
 		//Create a new Scanner
 		Scanner sc = new Scanner(System.in);
 		
+		Random aleatorio = new Random();
+		
 		//Declare the variables
 		int num1;
 		int num2;
@@ -32,8 +35,8 @@ public class Exercise04 {
 		int sumUser;
 		
 		//Show the 2 random numbers
-		num1 = (int)(Math.random() * 100) + 1;
-		num2 = (int)(Math.random() * 100) + 1;
+		num1 = aleatorio.nextInt(99) + 1;
+		num2 = aleatorio.nextInt(99) + 1;
 		
 		sum = num1 + num2;
 		
