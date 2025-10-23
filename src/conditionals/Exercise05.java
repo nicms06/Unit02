@@ -3,6 +3,21 @@
  * si el número de días de estancia es superior a 7 y la distancia superior a 800 km el billete 
  * tiene una reducción del 30%. El precio por kilómetro es de 2,5€. La distancia a recorrer y el 
  * número de días de estancia los debes solicitar al usuario por teclado.
+ * 
+ * Prueba 1:
+ * Valor entrada: distance -1, dayStay 10
+ * Valor esperado: ERROR
+ * Valor obtenido: ERROR
+ * 
+ * Prueba 2:
+ * Valor entrada: distance 30, dayStay 10
+ * Valor esperado: 75
+ * Valor obtenido: 75
+ * 
+ * Prueba 3:
+ * Valor entrada: distance 900, dayStay 10
+ * Valor esperado: 1575
+ * Valor obtenido: 1575
  */
 
 package conditionals;

@@ -1,6 +1,26 @@
 /*
  * Pedir al usuario el número de un mes y el año (comprobando si es o no bisiesto). 
  * Debe imprimir por pantalla el número de días que tiene el mes.
+ * 
+ * Prueba 1:
+ * Valor entrada: año 2025, mes 2
+ * Valor esperado: 28
+ * Valor obtenido: 28
+ * 
+ * Prueba 2:
+ * Valor entrada: año 2024, mes 2
+ * Valor esperado: 29
+ * Valor obtenido: 29
+ * 
+ * Prueba 3:
+ * Valor entrada: año 2024, mes 5
+ * Valor esperado: 31
+ * Valor obtenido: 31
+ * 
+ * Prueba 4:
+ * Valor entrada: año 2024, mes -3
+ * Valor esperado: ERROR
+ * Valor obtenido: ERROR
  */
 
 package conditionals;
