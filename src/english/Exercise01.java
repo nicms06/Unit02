@@ -28,7 +28,7 @@ public class Exercise01 {
 		System.out.print("What do you want, 38 cm or 43 cm screen?: ");
 		screen = sc.nextInt();
 		
-		//If screen isnt 38 or 43 ERROR
+		//If screen isn't 38 or 43 ERROR
 		if ((screen != 38) && (screen != 43)) {
 			System.out.println("ERROR");
 		}
@@ -42,46 +42,42 @@ public class Exercise01 {
 				finalPrice = PRICE + 99.99;
 			}
 			
-			sc.nextLine();
+			//Ask the user if he wants antivirus
+			System.out.print("Do you want antivirus software? (yes = Yes, no = No): ");
+			antivirusYesOrNo = sc.next();
 			
-			//Ask the user if he want antivirus
-			System.out.print("Do you want antivirus software? (Yes or No): ");
-			antivirusYesOrNo = sc.nextLine();
-			
-			//If he don't write yes or no, error
-			if (antivirusYesOrNo != "Yes" || antivirusYesOrNo != "No") {
+			//If he doesn't write yes or no, error
+			if (!antivirusYesOrNo.equalsIgnoreCase("yes") && !antivirusYesOrNo.equalsIgnoreCase("no")) {
 				System.out.println("ERROR");
 			}
 			else {
 				//If he wants it, add 65.99
-				if (antivirusYesOrNo.equals ("Yes")) {
+				if (antivirusYesOrNo.equalsIgnoreCase("yes")) {
 					finalPrice += ANTIVIRUS;
 				}
-				//If he don't want it, nothing happens
-				else if (antivirusYesOrNo.equals ("No")) {
+				//If he doesn't want it, nothing happens
+				else if (antivirusYesOrNo.equalsIgnoreCase("no")) {
 					
 				}
 				
-				//Ask the user if he want the printer
-				System.out.print("Do you want the printer? (Yes or No): ");
-				printerYesOrNo = sc.nextLine();
+				//Ask the user if he wants the printer
+				System.out.print("Do you want the printer? (yes = Yes, no = No): ");
+				printerYesOrNo = sc.next();
 				
-				//If he don't write yes or no, error
-				if (printerYesOrNo != "Yes" || printerYesOrNo != "No") {
+				//If he doesn't write yes or no, error
+				if (!printerYesOrNo.equalsIgnoreCase("yes") && !printerYesOrNo.equalsIgnoreCase("no")) {
 					System.out.println("ERROR");
 				}
 				else {
 					//If he wants it, add 125
-					if (printerYesOrNo.equals ("Yes")) {
+					if (printerYesOrNo.equalsIgnoreCase("yes")) {
 						finalPrice += PRINTER;
-						//Show the result
-						System.out.printf("You have to pay %.2f€%n", finalPrice);
 					}
-					//If he don't want it, nothing happens
-					else if (printerYesOrNo.equals ("No")) {
-						//Show the result
-						System.out.printf("You have to pay %.2f€%n", finalPrice);
+					//If he doesn't want it, nothing happens
+					else if (printerYesOrNo.equalsIgnoreCase("no")) {
 					}
+				//Show the result
+				System.out.printf("You have to pay %.2f€%n", finalPrice);
 				}
 			}
 		}
