@@ -7,7 +7,7 @@
  * Por último, el algoritmo mostrará por pantalla la suma de las dos tiradas en formato numérico.
  */
 
-package switch_;
+package switchexercises;
 
 import java.util.Scanner;
 

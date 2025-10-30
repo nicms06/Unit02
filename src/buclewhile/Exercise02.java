@@ -4,7 +4,7 @@
  * antes de acabar, mostrará la cantidad de números positivos introducidos por el usuario.
  */
 
-package bucle_while;
+package buclewhile;
 
 import java.util.Scanner;
 

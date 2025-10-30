@@ -4,7 +4,7 @@
  * media de los números negativos y el número de ceros que ha introducido el usuario.
  */
 
-package bucle_while;
+package buclewhile;
 
 import java.util.Scanner;
 

@@ -6,7 +6,7 @@
  * sobresaliente (9 y 10).
  */
 
-package switch_;
+package switchexercises;
 
 import java.util.Scanner;
 

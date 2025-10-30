@@ -4,7 +4,7 @@
  * Hay que contemplar el caso de que empaten.
  */
 
-package if_else;
+package ifelse;
 
 import java.util.Scanner;
 

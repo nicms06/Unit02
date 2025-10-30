@@ -2,7 +2,7 @@
  * Diseñar una aplicación que solicite al usuario un número e indique si es par o impar.
  */
 
-package if_else;
+package ifelse;
 
 import java.util.Scanner;
 

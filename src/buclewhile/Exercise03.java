@@ -4,7 +4,7 @@
  * antes de acabar, mostrará la media de los números positivos introducidos por el usuario.
  */
 
-package bucle_while;
+package buclewhile;
 
 import java.util.Scanner;
 

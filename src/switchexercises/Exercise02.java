@@ -4,7 +4,7 @@
  * al que corresponde. Por ejemplo, el número 1 corresponde a “Lunes” y el 6 a “Sábado”.
  */
 
-package switch_;
+package switchexercises;
 
 import java.util.Scanner;
 

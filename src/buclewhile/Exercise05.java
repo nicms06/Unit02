@@ -4,7 +4,7 @@
  * la media, el número de alumnos y cuántos son mayores de edad.
  */
 
-package bucle_while;
+package buclewhile;
 
 import java.util.Scanner;
 

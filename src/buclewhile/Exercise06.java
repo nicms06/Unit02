@@ -4,7 +4,7 @@
  * datos cuando se utilice -1 como altura). La aplicación debe devolver la altura del árbol más alto.
  */
 
-package bucle_while;
+package buclewhile;
 
 import java.util.Scanner;
 

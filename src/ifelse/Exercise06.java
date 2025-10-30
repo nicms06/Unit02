@@ -2,7 +2,7 @@
  * Escribir un programa que pida al usuario tres números enteros, y que muestre por pantalla si la suma de dos de esos números da como resultado el otro número.
  */
 
-package if_else;
+package ifelse;
 
 import java.util.Scanner;
 

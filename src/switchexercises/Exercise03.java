@@ -9,7 +9,7 @@
  * Si el usuario elige una opción incorrecta, el algoritmo se lo hace saber al usuario	y no haría nada.
  */
 
-package switch_;
+package switchexercises;
 
 import java.util.Scanner;
 

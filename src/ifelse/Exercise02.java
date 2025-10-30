@@ -4,7 +4,7 @@
  * que se encuentra en el intervalo (-1, 1), donde se excluye el -1, el 0 y el 1.
  */
 
-package if_else;
+package ifelse;
 
 import java.util.Scanner;
 

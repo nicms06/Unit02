@@ -2,7 +2,7 @@
  * Pedir los coeficientes de una ecuación de segundo grado y mostrar sus soluciones reales. Si no existen, habrá que indicarlo. 
  */
 
-package if_else;
+package ifelse;
 
 import java.util.Scanner;
 
