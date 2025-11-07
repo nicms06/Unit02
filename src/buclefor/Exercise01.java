@@ -20,7 +20,7 @@ public class Exercise01 {
 		System.out.println("Input a number: ");
 		num = sc.nextInt();
 		
-		//For
+		//loop for to show numbers from 1 to num
 		for (int i=1; i <= num; i++) {
 			System.out.println(i);
 		}
