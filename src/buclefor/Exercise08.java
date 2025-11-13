@@ -18,6 +18,8 @@ public class Exercise08 {
 		//Declare the variables 
 		int numA;
 		int numB;
+		int bigger = 0;
+		int smaller = 0;
 			
 		//Ask the user for A and B
 		System.out.println("Please, input A: ");
@@ -26,20 +28,17 @@ public class Exercise08 {
 		System.out.println("Please, input B: ");
 		numB = sc.nextInt();
 		
-		if (numA < numB) {
-            System.out.println("Numbers between " + numA + " and " + numB + ":");
-            for (int i = numA + 1; i < numB; i++) {
-                System.out.print(i + " ");
-            }
-        } else if (numB < numA) {
-            System.out.println("Numbers between " + numB + " and " + numA + ":");
-            for (int i = numB + 1; i < numA; i++) {
-                System.out.print(i + " ");
-            }
+		if (numA > numB) {
+			bigger = numA;
+			smaller = numB;
+		}
+		else if (numB > numA) {
+			bigger = numB;
+			smaller = numA;
 		}
 		
-		else {
-			System.out.println("Same number");
+		for (int i = smaller; i<= bigger; i++) {
+			System.out.println(i);
 		}
 			
 		//Close the Scanner
