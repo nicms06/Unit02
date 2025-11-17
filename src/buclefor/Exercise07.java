@@ -10,32 +10,50 @@ public class Exercise07 {
 
 	public static void main(String[] args) {
 		
-		//Create a new Scanner
-		Scanner sc = new Scanner(System.in);
-		
-		//Declare the variables
+		// Número introducido por el usuario
 		int num;
-		int prime = 0;
-		
-		//Ask the user for a number
-		System.out.println("Please, input a number: ");
-		num = sc.nextInt();
-		
-		for (int i = 2; i< num; i++) {
-			if(num%i ==0) {
-				prime ++;
+
+		// Variable para determinar si el número es primo
+		boolean esPrimo = true;
+
+		int cont = 2;
+
+		// Scanner para leer el número
+		Scanner reader = new Scanner(System.in);
+
+		// Pido un número al usuario
+		System.out.println("Introduzca un número entero positivo:");
+		num = reader.nextInt();
+
+		if (num > 0) {
+		// Si es positivo entonces hacemos el estudio de si es primo
+
+		if (num == 1) {
+			esPrimo = false;
+		} else {
+			// Si es distinto de 1
+//			for (int cont = 2; cont < num ; cont++) {
+//			if (num % cont == 0) {
+//			esPrimo = false;
+//			reak;
+//				}
+//			}
+
+			while (cont < num && esPrimo) {
+				if (num % cont == 0) {
+					esPrimo = false;
+				}
+
+				cont++;
 			}
 		}
-		
-		if(prime == 0) {
-			System.out.println(num + " is a prime number");
+		System.out.println(esPrimo ? "El número es primo" : "El número no es primo");
+		} else {
+			System.out.println("El valor introducido debe ser positivo");
 		}
-		else {
-			System.out.println(num + " is not a prime number");
-		}
-		
-		//Close the Scanner
-		sc.close();
+
+		// Cierre del scanner
+		reader.close();
 
 	}
 
