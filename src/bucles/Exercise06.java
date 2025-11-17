@@ -34,7 +34,7 @@ public class Exercise06 {
 				if (k < i - 1) {
                     System.out.print(" ");
                 }
-				}
+			}
 			
 			System.out.println();
 		}
