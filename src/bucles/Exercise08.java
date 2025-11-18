@@ -33,6 +33,7 @@ public class Exercise08 {
 			while (num<aux && num != 0) {
 				System.out.println("ERROR, this number is smaller, try again");
 				num = sc.nextInt();
+				aux = num;
 				fails ++;
 			}
 			
