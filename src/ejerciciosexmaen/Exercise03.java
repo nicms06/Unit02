@@ -36,8 +36,21 @@ public class Exercise03 {
 				System.out.print(" ");
 			}
 			
-			for (int k = 0; k < i; k++) {
-				System.out.print("* ");
+			if (i == side) {
+				for (int k = 0; k < i; k++) {
+					System.out.print("* ");
+				}
+			}
+			else if (i == 1) {
+					System.out.print("*");
+				}
+			else {
+				System.out.print("*");
+				for (int l = 0; l < 2 * i-3; l++) {
+					System.out.print(" ");
+			}
+				System.out.print("*");
+				
 			}
 			
 			System.out.println();
